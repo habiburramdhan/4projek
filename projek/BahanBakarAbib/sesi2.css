@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background-image: url(aset/Wikrama\ Foto.jpg);  
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hasil {
+    /* margin: 50px auto;
+    width: 50%;
+    border: 2px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff; */
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgb(255, 255, 255);
+    margin: 5rem;
+    padding: 5rem;
+    margin-top: 10px;
+    border-radius: 15px;
+    color: white;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: hsl(216, 100%, 74%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+.btn:hover {
+    background-color: #000135;
+}
